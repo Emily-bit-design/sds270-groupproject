@@ -3,3 +3,14 @@ title: "Final Project"
 format: html
 ---
 
+```{r}
+library(usethis)
+library(devtools)
+```
+
+```{r}
+#| eval: false
+# this should work if the github owner removes the hyphen from the name
+usethis::create_package(".")
+```
+
